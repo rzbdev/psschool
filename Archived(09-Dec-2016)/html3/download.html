@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Pathseekers | Home</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/animation.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,700italic,600italic,400italic,800,800italic' rel='stylesheet' type='text/css'>
+     <style>	
+	.navbar-right .dropdown-menu{left:0px;}	
+	.slides li{overflow:hidden;}
+	 </style>
+	</head>
+  <body>
+<div class="wrapper">
+	    <div class="navbar-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-3 col-xs-3">
+						<a href="index.html"><img class="logo img-responsive" src="images/ps-logo.png" alt="logo"/></a>
+					</div>
+					<div class="col-md-9 col-sm-9 col-xs-12">
+						<nav class="navbar navbar-inverse navbar-right event-nav1">
+							<div class="">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									  </button>
+									 <a class="navbar-brand" href="#"> </a>
+								</div>
+							   <div id="navbar" class="navbar-collapse collapse">
+									<ul class="nav navbar-nav">
+										<li><a href="index.html">Home</a></li>
+										<li class="dropdown a1"><a class="smoothScroll dropdown-toggle"  data-toggle="" href="about-us.html" role="button" aria-haspopup="true" aria-expanded="false" href="about-us.html">About Us <span class="caret"></span></a>		
+												<ul class="dropdown-menu">
+												  <li><a class="scroll smoothScroll" href="about-us.html">Our Mission</a></li>
+												 <li><a class="scroll smoothScroll" href="about-us.html">Our Vision</a></li>
+												</ul>
+											  </li>
+										<li><a href="academic.html">Academics</a></li>
+										<li><a href="events.html">Events</a></li>
+										<li><a href="download.html">Download</a></li>	
+                                        <li style="padding-bottom:0px;">
+									      <button type="button" class="red-btn">Rgister Now</button>
+										</li>											
+									</ul>
+								</div>
+								
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div><!--main-header-->
+		<div class="inner_header">
+			<div class="">
+				<div class="container">
+				  <span class="brdr"></span>
+				   <h1>Downloads</h1>
+			    </div>	
+			</div>	
+		</div>
+		<div class="container">
+				<div class="event_contnt">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="txt">
+						<ul class="event-meta">
+							<li class="event-meta-row">
+							<span class="meta-type"> Date: </span>
+							<span class="meta-data"> 07 September 2015 </span>
+							<span class="meta-data pull-right"><span class="bell"><img src="images/bell.png"></span><a> View Notification</a></span>
+							</li>
+							<li class="event-meta-row">
+							<span class="meta-type"> Time: </span>
+							<span class="meta-data"> 14:30 </span>
+							</li>
+							<li class="event-meta-row">
+							<span class="meta-type"> Place: </span>
+							<span class="meta-data"> Green Point, Cape Town </span>
+							</li>
+							<li class="event-meta-row">
+							<span class="meta-type"> Contact: </span>
+							<span class="meta-data"> 012 345 6789 </span>
+							</li>
+						</ul>
+						
+					</div>
+				</div><!-----col-md-12---->
+			</div>
+			</div>
+		</div>
+		</div>
+		<br/><br/><br/><br/><br/><br/><br/><br/>
+		<footer>
+			<div class="footer-in">
+				<div class="container">
+				<p>® All Rights Reserved.</p>
+					<ul class="navbar-right">
+						<li><a href="index.html">Home</a></li>
+						<li>|</li>
+						<li><a href="contacts.html">Contact Us</a></li>
+				   </ul>
+				</div><!--container-->
+			</div><!--footer-in-->
+		</footer>
+</div><!--wrapper-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script>
+	$(document).ready(function() {
+    $('#event1-carousel,#event1-carouse2,#event3-carousel').carousel({
+        interval: 1500
+    })
+	$('.nav li.dropdown').hover(function() {
+            $(this).addClass('open');
+        }, function() {
+            $(this).removeClass('open');
+        });
+	});	
+	</script>
+  </body>
+</html>
